@@ -30,7 +30,7 @@ An interactive SVG-based heritage explorer website focused on Rajasthan’s cult
 - Dynamic district-based content loading
 - Fully responsive and deployed via Vercel
 
-### 📝 [Sticky Notes](https://sticky-notes-mu-lemon.vercel.app/)
+### 📝 [Sticky Notes](https://sticky-note-app-gamma.vercel.app/)
 A zero-login, offline-capable note-taking app.
 - Uses LocalStorage for persistent notes
 - Minimal UI, super-fast performance
