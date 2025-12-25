@@ -1,49 +1,97 @@
-# 👋 Hi, I'm Tanmay Rathi
+# 👋 Hi, I’m Tanmay Rathi
 
-🎓 A Computer Science student at Poornima College of Engineering (Jaipur), passionate about building real-world web applications and solving problems with clean, scalable code.
+🎓 Computer Science Engineering student at **Poornima College of Engineering, Jaipur**
+💻 Backend-focused developer with hands-on experience building **production-ready web applications** using Python and Django REST Framework.
+
+I enjoy designing clean APIs, implementing secure authentication, and building scalable backend systems that solve real-world problems.
 
 ---
 
 ## 🚀 About Me
 
-- 💻 I build interactive front-end projects using **HTML, CSS, JavaScript** and integrate them with **MySQL** backends.
-- 🛠️ I'm currently learning **React.js** to enhance my front-end skills.
-- 🧠 Comfortable with **Java**, **Python**, and **C++** for logic building, DSA, and backend fundamentals.
-- 🌱 Actively contributing to open projects and participating in hackathons.
+* 🧠 Strong foundations in **Python backend development**, **RESTful API design**, and **object-oriented programming**
+* 🔐 Experienced with **JWT-based authentication** and **role-based access control**
+* ⚙️ Built full-stack applications integrating frontend interfaces with robust backend logic
+* ☁️ Deployed applications on **AWS EC2** with CI/CD pipelines
+* 🌱 Currently strengthening skills in **React.js** and advanced backend architecture
+* 🏆 Actively participating in hackathons and hands-on projects to learn by building
 
 ---
 
 ## 🔧 Tech Stack
 
-- **Languages:** JavaScript, Python, Java, C++, HTML, CSS  
-- **Web Technologies:** HTML5, CSS3, JavaScript (ES6+), React (Learning)  
-- **Databases:** MySQL  
-- **Tools & Platforms:** Git, GitHub, VS Code, Vercel, LocalStorage  
+**Languages**
+
+* Python, Java, C, C++
+
+**Backend**
+
+* Django, Django REST Framework
+* RESTful APIs, JWT Authentication
+* Role-Based Access Control (RBAC)
+
+**Frontend**
+
+* HTML, CSS, JavaScript, Bootstrap
+* React.js (Learning)
+
+**Databases**
+
+* PostgreSQL, MySQL
+
+**Tools & Platforms**
+
+* Git, GitHub, Visual Studio Code
+* AWS EC2, Vercel
+* CI/CD Pipelines
 
 ---
 
-## 📌 Projects
+## 📌 Featured Projects
 
-### 🗺️ [Cultural Routes](https://cultiral-routes.vercel.app/)
-An interactive SVG-based heritage explorer website focused on Rajasthan’s cultural diversity.
-- Built with HTML, CSS, JavaScript
-- Dynamic district-based content loading
-- Fully responsive and deployed via Vercel
+### 🧾 Employee Reimbursement System
 
-### 📝 [Sticky Notes](https://sticky-note-app-gamma.vercel.app/)
-A zero-login, offline-capable note-taking app.
-- Uses LocalStorage for persistent notes
-- Minimal UI, super-fast performance
-- Deployed via GitHub and Vercel
+A full-stack application designed to digitize and automate employee expense reimbursement workflows.
 
----
-
-## 📫 Let's Connect
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/tanmay-rathi-567a6a257/)
-- 🧑‍💻 [GitHub](https://github.com/rathitanmay10)
-- ✉️ rathitanmay10@gmail.com
+* Built secure RESTful APIs using **Django REST Framework**
+* Implemented **JWT authentication** and **Employee/Admin role-based access**
+* Enabled submission, review, approval, and rejection of reimbursement requests
+* Developed a responsive frontend using HTML, CSS, and JavaScript
+* Configured as a **Progressive Web App (PWA)** for mobile usability
+* Deployed on **AWS EC2** with CI/CD pipelines
+* Maintained clean Git history with proper branching strategies
 
 ---
 
-⭐️ Thank you for visiting my profile! Drop a star ⭐️ on any repo you find helpful or interesting!
+### 🗺️ [Cultural Routes – Interactive Travel Guide](https://cultiral-routes.vercel.app/)
+
+An interactive web platform showcasing Rajasthan’s cultural heritage.
+
+* Built using HTML, CSS, and JavaScript
+* Integrated interactive SVG maps for better user engagement
+* Focused on clean UI/UX and cross-device responsiveness
+* Deployed using GitHub and Vercel
+
+---
+
+### 📝 [Sticky Notes App](https://sticky-note-app-gamma.vercel.app/)
+
+A lightweight, offline-first note-taking application.
+
+* Zero-login experience using browser **LocalStorage**
+* Fast, minimal UI with persistent notes
+* Deployed via GitHub and Vercel
+
+---
+
+## 📫 Let’s Connect
+
+* 💼 **LinkedIn:** [https://www.linkedin.com/in/tanmay-rathi-567a6a257/](https://www.linkedin.com/in/tanmay-rathi-567a6a257/)
+* 🧑‍💻 **GitHub:** [https://github.com/rathitanmay10](https://github.com/rathitanmay10)
+* ✉️ **Email:** [rathitanmay10@gmail.com](mailto:rathitanmay10@gmail.com)
+
+---
+
+⭐️ Thanks for visiting my profile!
+Feel free to explore my repositories and drop a ⭐️ if you find something useful.
+
