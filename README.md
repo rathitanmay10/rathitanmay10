@@ -82,6 +82,7 @@ I build backend systems that are secure, scalable, and production-ready — from
 
 ### 🏠 RentBnB — Multi-Tenant Property Rental Platform
 **Tech Stack:** `FastAPI` `PostgreSQL` `Redis` `Celery` `Razorpay`
+🔗 **Repo:** [github.com/rathitanmay10/rentbnb](https://github.com/rathitanmay10/rentbnb)
 
 A high-performance backend system for managing **properties, bookings, payments, and real-time communication**.
 
@@ -105,6 +106,7 @@ A high-performance backend system for managing **properties, bookings, payments,
 
 ### 🎮 GamerHouse — Multi-Tenant Gaming Management Platform
 **Tech Stack:** `Django` `DRF` `PostgreSQL` `Redis` `Celery` `Docker` `AWS EC2`
+🔗 **Repo:** [github.com/rathitanmay10/gamerhouse](https://github.com/rathitanmay10/gamerhouse)
 
 A production-style backend platform with **tenant isolation**, **secure auth**, **subscriptions**, and **observability**.
 
