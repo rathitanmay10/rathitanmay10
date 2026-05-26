@@ -1,198 +1,74 @@
-# 👋 Hi, I’m Tanmay Rathi
+## 👋 Hi, I'm Tanmay Rathi
+💻 **Backend & AI Engineer specializing in Scalable Distributed Systems & Agentic Workflows**
 
-💻 **Backend Engineer focused on Python, FastAPI, Django, and scalable backend systems**  
-🎓 **B.Tech CSE Student** at **Poornima College of Engineering, Jaipur**
-
-I build backend systems that are secure, scalable, and production-ready — from REST APIs and async workflows to payments, caching, WebSockets, and cloud deployments.
+I build high-performance, secure, and production-ready backend infrastructures. My core expertise lies in designing multi-tenant architectures, asynchronous processing, event-driven serverless scaling, and integrating intelligent agents using the Model Context Protocol (MCP).
 
 ---
 
-## 🚀 About Me
-
-- 🔧 Backend-first developer with hands-on experience in **FastAPI**, **Django**, and **Django REST Framework**
-- ⚡ Interested in building **high-performance APIs**, **async systems**, and **multi-tenant architectures**
-- 🔐 Experienced with **JWT auth**, **RBAC**, **MFA**, **rate limiting**, and **secure backend design**
-- 🗄️ Comfortable designing and optimizing **PostgreSQL schemas**, query performance, and backend workflows
-- ☁️ Worked on **AWS EC2 deployments**, **Dockerized apps**, and **GitHub Actions CI/CD**
-- 📈 Exploring more around **system design**, **microservices**, **Redis**, **Celery**, and **production engineering**
-- 🛠️ I like solving real backend problems by building projects that feel close to actual production systems
+### 🚀 Advanced Backend & Cloud Capabilities
+* **Multi-Tenancy & Isolation:** Experienced in building robust, tenant-isolated systems with strict data separation layer schemas.
+* **Serverless & Event-Driven Compute:** Skilled in designing low-latency, cost-optimized architectures that scale on-demand using micro-functional, event-driven patterns.
+* **Async Scaling & Background Jobs:** Skilled in utilizing `FastAPI` paired with `Celery` + `Redis` for distributed background worker routines and task management.
+* **Production Security:** Hands-on experience implementing multi-factor authentication (MFA), strict Role-Based Access Control (RBAC), JWT token revocation strategies, and rate-limiting.
+* **Observability & Telemetry:** Integrating structured logging, correlation IDs, and load-testing APIs with `Locust` to diagnose performance bottlenecks.
 
 ---
 
-## 🧠 What I’m Currently Focused On
-
-- Advanced **backend engineering**
-- **FastAPI + Django** production patterns
-- **Redis, Celery, caching, and background jobs**
-- **System design and scalable architecture**
-- **API performance, observability, and deployment workflows**
-- **Data engineering fundamentals** for modern backend systems
+### 🧠 Current Focus Areas & R&D
+* 🤖 **Agentic Frameworks:** Designing custom Model Context Protocol (MCP) servers and tools to connect LLMs securely to local/private data.
+* ☁️ **Cloud Native Design:** Transitioning traditional web backends into event-driven serverless systems using cloud functions.
+* 📊 **Data Engineering Fundamentals:** Utilizing `Pandas` and analytical pipelines for backend data preprocessing, structuring, and migration tasks.
+* 🏗️ **Design Patterns & Clean Code:** Strict implementation of SOLID design principles to keep microservices modular and testable.
 
 ---
 
-## 🔧 Tech Stack
+### 🛠️ Tech Stack & Ecosystem
 
-### 🧑‍💻 Languages
-- Python
-- Java
-- C
-- C++
-
-### ⚙️ Backend & APIs
-- FastAPI
-- Django
-- Django REST Framework
-- REST APIs
-- JWT Authentication
-- RBAC
-- WebSockets
-- Async Programming
-- Rate Limiting
-- Caching
-
-### 🗄️ Databases & Storage
-- PostgreSQL
-- MySQL
-- Redis
-- SQLAlchemy
-- Django ORM
-- Alembic
-
-### ☁️ DevOps / Tools
-- Docker
-- Git & GitHub
-- GitHub Actions
-- AWS EC2
-- Nginx
-- Postman
-- New Relic
-- Locust
-- VS Code
-
-### 🎨 Frontend
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- React.js *(Learning)*
+| Layer | Technologies |
+| :--- | :--- |
+| **Languages** | Python, Java, C++, C, TypeScript, JavaScript |
+| **Frameworks & APIs** | FastAPI, Django, Django REST Framework (DRF), WebSockets |
+| **Databases, Cache & Queues** | PostgreSQL, Redis, MySQL, SQLAlchemy, Django ORM, Celery, Alembic |
+| **Cloud, DevOps & Serverless** | Serverless Framework, AWS (EC2, Lambda/FaaS), Docker, Nginx, GitHub Actions (CI/CD) |
+| **Data Analysis & Testing** | Pandas, Playwright, Locust, New Relic, Postman |
 
 ---
 
-## 📌 Featured Projects
+### 📌 Featured Architectural Projects
 
-### 🏠 RentBnB — Multi-Tenant Property Rental Platform
-**Tech Stack:** `FastAPI` `PostgreSQL` `Redis` `Celery` `Razorpay`
+#### 🏠 [RentBnB — Multi-Tenant Property Rental Engine](https://github.com/rathitanmay10/rentbnb)
+A high-performance async backend system managing real-world transactional complexities.
+* **Tech Stack:** FastAPI, PostgreSQL, Redis, Celery, Razorpay
+* Designed complex relational tracking for overlapping tenant bookings and secure automated payment webhook verification.
+* Leveraged Celery background workers for email scheduling and reconciliation workflows.
+* Implemented live interactive communication loops using WebSockets.
 
-🔗 **Repo:** [github.com/rathitanmay10/rentbnb](https://github.com/rathitanmay10/rentbnb)
+#### 🎮 [GamerHouse — Isolated Gaming Management Platform](https://github.com/rathitanmay10/gamerhouse)
+An enterprise-style multi-tenant portal prioritizing bulletproof security layers and metric logging.
+* **Tech Stack:** Django, DRF, PostgreSQL, Redis, Celery, Docker, AWS EC2
+* Achieved full tenant data isolation, multi-factor authentication (MFA), and strict RBAC setups.
+* Implemented structured logging with custom correlation IDs for clear distributed tracing.
+* Containerized using Docker and deployed via Nginx pipelines on AWS EC2 instances.
 
-A high-performance backend system for managing **properties, bookings, payments, and real-time communication**.
+#### 🤖 [Expense-Agent Ecosystem](https://github.com/rathitanmay10/learn-mcps) — Agentic Financial Orchestration
+An intelligent, closed-loop financial assistant utilizing tool-calling agent mechanics to automate transaction logging, semantic auditing, and personal accounting.
+* **Tech Stack:** Python, Model Context Protocol (MCP), LLM Tool-Calling (Claude/OpenAI), SQLite/PostgreSQL
+* **Core Ecosystem Architecture:** Composed of an autonomous agent orchestrator ([expense-agent](https://github.com/rathitanmay10/expense-agent)) coupled with a dedicated protocol abstraction layer ([mcp-expense-tracker](https://github.com/rathitanmay10/mcp-expense-tracker)).
+* **Protocol-Driven Context:** Implemented custom Model Context Protocol (MCP) servers to expose secure database schemas, tracking operations, and filtering rules directly to an LLM's runtime environment.
+* **Semantic Parsing & Intent Mapping:** Designed the system to parse unstructured natural language input, extract entities (Amount, Currency, Category), and map them to precise backend database execution functions.
+* **Strict Tool-Calling Schemas:** Authored rigid JSON schema definitions for the agent's tool declaration block, guaranteeing type-safe arguments and robust error handling during autonomous database mutation loops.
 
-#### Highlights
-- Built an **async backend** using **FastAPI**
-- Designed scalable relational models for:
-  - Users
-  - Properties
-  - Bookings
-  - Payments
-- Used **Celery + Redis** for:
-  - payment reconciliation
-  - email notifications
-  - scheduled background tasks
-- Built **WebSocket-based real-time messaging**
-- Integrated **Razorpay** with secure webhook verification
-- Implemented **JWT auth + RBAC** for **Admin / Landlord / Tenant**
-- Added **Redis caching** and **rate limiting**
-
----
-
-### 🎮 GamerHouse — Multi-Tenant Gaming Management Platform
-**Tech Stack:** `Django` `DRF` `PostgreSQL` `Redis` `Celery` `Docker` `AWS EC2`
-
-🔗 **Repo:** [github.com/rathitanmay10/gamerhouse](https://github.com/rathitanmay10/gamerhouse)
-
-A production-style backend platform with **tenant isolation**, **secure auth**, **subscriptions**, and **observability**.
-
-#### Highlights
-- Built a **multi-tenant backend** with strong tenant-level data isolation
-- Implemented:
-  - **MFA**
-  - **email verification**
-  - **JWT auth with refresh token revocation**
-- Developed **RBAC**, **catalog APIs**, **tenant/user modules**, and filtering systems
-- Integrated **Razorpay subscription billing**
-- Added **structured logging** and **correlation IDs**
-- Deployed using **Docker + Nginx on AWS EC2**
-- Automated delivery with **GitHub Actions**
-- Performed **load testing with Locust**
+#### 🧾 [Employee Reimbursement System (ERS)](https://github.com/rathitanmay10/ERS)
+A workflow-driven corporate claim portal transforming legacy logic operations into modern progressive structures.
+* **Tech Stack:** Django DRF, JavaScript, AWS EC2
+* Enforces auditing history logs alongside strict status changes throughout authorization flows.
+* Optimized front-end experiences by implementing Progressive Web App (PWA) mechanics.
 
 ---
 
-### 🧾 Employee Reimbursement System
-**Tech Stack:** `Django` `DRF` `HTML/CSS/JS` `AWS EC2`
+### 📫 Let's Connect
+* 💼 **LinkedIn:** [tanmay-rathi](https://linkedin.com/in/tanmay-rathi-567a6a257)
+* ✉️ **Email:** [rathitanmay10@gmail.com](mailto:rathitanmay10@gmail.com)
+* 🧑‍💻 **GitHub:** [rathitanmay10](https://github.com/rathitanmay10)
 
-A workflow-based reimbursement platform for managing employee claims and approvals.
-
-#### Highlights
-- Built secure **JWT-authenticated REST APIs**
-- Added **Employee/Admin role-based access**
-- Supported:
-  - reimbursement submission
-  - approval/rejection workflow
-  - audit history
-- Converted frontend into a **Progressive Web App (PWA)**
-- Deployed on **AWS EC2**
-- Configured **CI/CD pipelines**
-
----
-
-### 🗺️ Cultural Routes — Interactive Travel Guide
-🔗 **Live:** [cultiral-routes.vercel.app](https://cultiral-routes.vercel.app/)
-
-An interactive frontend project showcasing Rajasthan’s cultural heritage.
-
-- Built using **HTML, CSS, JavaScript**
-- Integrated **interactive SVG maps**
-- Focused on **clean UI/UX** and responsive design
-- Deployed via **Vercel**
-
----
-
-### 📝 Sticky Notes App
-🔗 **Live:** [sticky-note-app-gamma.vercel.app](https://sticky-note-app-gamma.vercel.app/)
-
-A lightweight offline-first note-taking app.
-
-- Built with **HTML, CSS, JavaScript**
-- Uses **LocalStorage** for persistence
-- Simple, minimal, and fast user experience
-
----
-
-## 📈 GitHub Goals
-
-I’m currently building projects that improve my understanding of:
-
-- Scalable backend architecture
-- Async systems
-- Background task processing
-- Production deployment workflows
-- API security and performance
-- System design for real-world applications
-
----
-
-## 📫 Let’s Connect
-
-- 💼 **LinkedIn:** [linkedin.com/in/tanmay-rathi-567a6a257](https://www.linkedin.com/in/tanmay-rathi-567a6a257/)
-- 🧑‍💻 **GitHub:** [github.com/rathitanmay10](https://github.com/rathitanmay10)
-- ✉️ **Email:** **rathitanmay10@gmail.com**
-
----
-
-## ⭐ Fun Fact
-
-I enjoy turning backend concepts like **authentication**, **async processing**, **tenant isolation**, and **deployment pipelines** into actual working systems instead of just learning them theoretically.
-
----
-
-⭐️ If you find any of my projects useful, feel free to explore the repos and leave a star.
+⭐ *Feel free to explore my source implementations, architectural sandboxes, and drop a star if you find something useful!*
