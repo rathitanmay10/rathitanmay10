@@ -56,6 +56,12 @@ An enterprise-style multi-tenant portal prioritizing bulletproof security layers
 * Containerized the application using Docker and deployed it on AWS EC2 using Nginx as a reverse proxy via GitHub Actions.
 * Ensured high-traffic stability by utilizing Locust for targeted load-testing and New Relic for APM infrastructure monitoring.
 
+#### 🛒 [ShopFlow — Event-Driven E-Commerce Backend](https://github.com/rathitanmay10/ShopFlow)
+A fully-async, production-ready e-commerce API with event-driven payment processing and background task orchestration.
+* **Async-First Stack:** Built with FastAPI, SQLAlchemy 2.x async (`asyncpg`), and ARQ workers on Redis for non-blocking order and payment lifecycles.
+* **Concurrency Correctness:** Implemented atomic stock decrement at the SQL level (`UPDATE ... WHERE stock >= qty`) to prevent race conditions under concurrent order pressure.
+* **Event-Driven Payments:** Payment processing is decoupled into ARQ background tasks with retry/backoff, persisting each state transition (`INITIATED → PROCESSING → SUCCESS|FAILED`) to an event log.
+* **Enterprise Patterns:** Enforced strict layered architecture (API → Service → Repository → DB), JWT RBAC with three roles, per-IP rate limiting, audit logging, and migration-based test isolation using transactional savepoints.
 ---
 
 ### 📫 Let's Connect
